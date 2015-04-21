@@ -1,0 +1,141 @@
+/**************************
+GENERAL
+**************************/ 
+html { 
+    height: 100%;
+} 
+a {
+    text-decoration: none;
+}
+
+body { 
+    font-family: 'Open Sans', sans-serif; 
+}
+
+img { 
+    max-width: 100%; 
+} 
+
+h3 { 
+    margin: 0 0 1em 0;
+}
+
+/****************************
+HEADING
+***************************/ 
+
+} 
+
+#logo {
+    text-align: center;
+    margin: 0
+}
+
+h1 { 
+    font-family: 'Open Sans', sans-serif; 
+    margin: 15px 0; 
+    font-size: 1.75em;
+    font-weight: normal; 
+    line-height: 0.8em;
+} 
+
+h2 { 
+    font-size: 0.75em; 
+    margin: -5px 0 0; 
+    font-weight: normal;
+} 
+
+/**************************************
+
+
+nav { 
+    text-align: center; 
+    padding: 10px 0; 
+    margin: 0 0;    
+} 
+
+nav ul { 
+    list-style: none; 
+    margin: 0 ; 
+    padding: 0;
+}
+nav li{ 
+    display: inline-block;
+} 
+
+nav a { 
+    font-weight: 800; 
+    padding: 15px 10px; 
+}
+*****************/
+
+/**************************************
+FOOTER
+*************************************/ 
+
+footer { 
+    font-size: 0.75em; 
+    text-align: center; 
+    clear: both;
+    padding-top: 50px; 
+    color: #ccc; 
+} 
+
+
+/* site body */
+#body {
+  background: lightblue;
+  transition:background-color 0.5s ease;
+}
+
+
+#name { 
+    text-align: center;
+    line-height: 100px;
+    margin: auto;
+    margin-top: -400px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    font-size: 100px; 
+    color: #140101; 
+    text-shadow: 2px 2px 0 #fff; 
+} 
+
+#title { 
+    text-align: center;
+    line-height: 100px;
+    margin: auto;
+    margin-top: -200px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    font-size: 75px; 
+    color: #100101; 
+    text-shadow: 2px 2px 0 #fff; 
+} 
+
+#html-css-js { 
+    text-align: center;
+    margin-top: 400px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
