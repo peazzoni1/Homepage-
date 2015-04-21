@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,600,800,400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="main-homepage.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <title>Aaron Peazzoni</title>
+  </head>
+  <body> 
+      <header id="main-header"></header>
+      <div id="name"> 
+        <p>Aaron Peazzoni</p> 
+       </div>
+      <div id="title"> 
+        <p>Frontend Web Development</p> 
+      </div>
+      <div id="html-css-js"> 
+        <img src="html-css-js.png">
+      </div>
+      <nav> 
+        <ul>
+          <li><a href="index.html"class="selected">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+     <script>   
+    $(document).ready(function(){        
+        setInterval(function(){
+            var r = Math.floor((Math.random() * 254) + 1);
+            var g = Math.floor((Math.random() * 254) + 1);
+            var b = Math.floor((Math.random() * 254) + 1);
+                $(objectID).animate({background: "rgb(" + r + "," + g + "," + b + ")"},500);
+                //tempID=tempID+1;
+                //if (tempID>colours.length-1) tempID=0;
+            },changeInterval);
+    });
+    /*for(var i = 0; i < 100; i++) {
+    //$("body").click(function() {
+     //($(this).toggleClass('clicked'))
+      var r = Math.floor((Math.random() * 254) + 1);
+      var g = Math.floor((Math.random() * 254) + 1);
+      var b = Math.floor((Math.random() * 254) + 1);
+      $("body").css( "background", "rgb(" + r + "," + g + "," + b + ")");
+     };*/
+      </script>
+  </body>
+</html>
