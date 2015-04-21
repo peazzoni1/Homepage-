@@ -1,2 +1,2 @@
-# Homepage-
-A simple homepage to feature projects 
+# Projects 
+A few simple projects with HTML, CSS and Javascript 
